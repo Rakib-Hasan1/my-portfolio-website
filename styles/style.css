@@ -70,6 +70,22 @@ nav ul li a {
   border-radius: 5px;
 }
 
+.btn:hover{
+  background-color: white;
+  border: 1px solid #FD6E0A;
+  color: black;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.contact:hover{
+  background-color: white;
+  border: 1px solid #FD6E0A;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+
 .container {
   display: flex;
   margin: 100px 200px;
@@ -151,18 +167,15 @@ nav ul li a {
 .skills-container{
   display: flex;
   gap: 16px;
+  margin: 0 260px 0 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills{
   padding: 30px;
-  box-shadow: 0 6px 50px #000000;
-}
-
-.skills-container{
-  margin: 0 260px 0 300px;
-  align-items: center;
-  justify-content: center;
-  
+  box-shadow: 0 6px 50px #757070;
+  border-radius: 5px;
 }
 
 
@@ -206,6 +219,7 @@ align-items: center;
   font-weight: bold;
   font-size: 30px;
 }
+
 
 /* footer styles */
 
