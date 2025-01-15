@@ -142,6 +142,10 @@ nav ul li a {
   
 }
 
+footer{
+  margin: 0;
+}
+
 .about-footer{
   display: flex;
   justify-content: space-around;
@@ -269,4 +273,83 @@ footer textarea{
   padding: 8px 12px;
   border: none;
   margin-bottom: 20px;
+}
+
+
+
+
+/* mobile responsive media query */ 
+
+.hide{
+  display: none;
+}
+
+
+@media screen and (max-width: 576px){
+  .skills-container,
+  .skills-container, 
+  .head-description {
+    flex-direction: column;
+   margin: auto;
+   margin-top: 20px;
+  }
+
+  .resume-container{
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+  }
+  footer{
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .btn{
+    align-items: center;
+  }
+
+
+
+  .about , .about-description{
+  
+    margin: auto;
+    padding: 10px;
+  }
+
+  .about-footer{
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+    height: auto;
+    width: auto;
+  }
+  .container, nav {
+    flex-direction: column;
+  }
+
+  .discription{
+align-items: center;
+justify-content: center;
+  }
+
+  .header{
+    margin: auto;
+    padding: auto;
+    background-image: none;
+  }
+
+ 
+
+  .container, .contact{
+    flex-direction: column;
+    margin: auto;
+    padding: auto;
+
+  }
+
+  .btn{
+    margin-bottom: 10px;
+  }
+ 
 }
